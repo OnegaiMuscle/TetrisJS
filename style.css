@@ -1,0 +1,8 @@
+body { background: #050505; color: #0ef; display: flex; flex-direction: column; align-items: center; font-family: 'Courier New', monospace; margin: 0; overflow: hidden; touch-action: none; }
+        .game-container { display: flex; gap: 15px; margin-top: 10px; align-items: flex-start; position: relative; }
+        .side-panel { display: flex; flex-direction: column; gap: 8px; }
+        .stats { font-size: 12px; text-transform: uppercase; border: 1px solid #0ef; padding: 8px; background: rgba(0,255,239,0.05); min-width: 70px; box-shadow: 0 0 10px rgba(0,255,239,0.1); }
+        canvas#game { border: 2px solid #0ef; box-shadow: 0 0 20px #0ef; background: #000; height: 80vh; max-width: 70vw; cursor: crosshair; }
+        canvas#next { border: 1px solid #0ef; background: #000; width: 70px; height: 70px; }
+        .instructions { font-size: 10px; color: #555; margin-top: 5px; text-align: center; }
+        #combo-ui { color: #f0f; font-weight: bold; font-size: 18px; text-shadow: 0 0 5px #f0f; }
